@@ -29,23 +29,23 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="15sp"
-                android:text="STEP 1" />
+                android:text="@string/step_1"
+                android:textSize="15sp" />
 
             <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/verify_contact_tracer"
                 android:textSize="18sp"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:text="Verify that the contact tracer is from OTC" />
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:textSize="15sp"
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Make sure they give you a code that matches the one below." />
+                android:layout_marginTop="10dp"
+                android:text="@string/make_sure_tracer_code_is_valid"
+                android:textSize="15sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -63,10 +63,10 @@
                 android:layout_height="wrap_content">
 
                 <androidx.appcompat.widget.AppCompatTextView
-                    android:textSize="17sp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Verification code: " />
+                    android:text="@string/verification_code"
+                    android:textSize="17sp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/verifyCallerFragmentVerificationCode"
@@ -89,18 +89,18 @@
 
         <Button
             android:id="@+id/verifyCallerFragmentActionButton"
-            android:background="@drawable/gradient"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:textColor="@color/white"
-            android:text="Next"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/gradient"
             android:fontFamily="@font/font"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
             android:textFontWeight="600"
             android:textSize="18sp"
-            android:textStyle="normal"
-            android:textAllCaps="false" />
+            android:textStyle="normal" />
     </LinearLayout>
 
 </LinearLayout>
