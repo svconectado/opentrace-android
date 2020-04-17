@@ -53,7 +53,7 @@ class OTPFragment : OnboardingFragmentInterface() {
         stopWatch?.cancel()
     }
 
-    override fun getButtonText(): String = "Verify"
+    override fun getButtonText(): String = getString(R.string.verify)
 
     override fun becomesVisible() {}
 
@@ -81,7 +81,7 @@ class OTPFragment : OnboardingFragmentInterface() {
         sent_to.text = HtmlCompat.fromHtml(
             getString(
                 R.string.otp_sent,
-                "<b>${Preference.getPhoneNumber(context!!)}</b>"
+                "<b>${Preference.getPhoneNumber(requireContext())}</b>"
             ), HtmlCompat.FROM_HTML_MODE_LEGACY
         )
 

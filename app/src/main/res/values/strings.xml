@@ -8,6 +8,7 @@
     <string name="tv_onboarding_title">Help stop the spread of COVID-19 by turning Bluetooth on</string>
     <string name="tv_onboarding_desc">If you had close contact with a COVID-19 case, we help the health authorities call you more quickly, to provide guidance and care.</string>
     <string name="tv_onboarding_desc_sub">To protect those around you, OTC may also ask you to share your data.</string>
+    <string name="tv_test_disclaimer">This is a Test App for volunteers. It is not an official tracking app. The official contact tracking app will be available through official means. But you can collaborate to this project reporting problems or difficulties in its use.</string>
     <string name="i_want_to_help">I want to help</string>
 
     <string name="tv_howitworks_title">How OpenTrace works</string>
@@ -34,6 +35,8 @@
     <string name="proceed">Proceed</string>
     <string name="continue_">Continue</string>
     <string name="get_otp">Get OTP</string>
+    <string name="verify">Verify</string>
+    <string name="i_agree">I Agree</string>
     <string name="wrong_number"><u>Wrong Number?</u></string>
     <string name="app_permission_fully_setup">App permissions are fully set up</string>
     <string name="app_permission_fully_setup_desc">Please leave all settings on until the outbreak ends.</string>
@@ -88,4 +91,6 @@
     <string name="service_not_ok_action">Check app now</string>
 
     <string name="share_message">Join me in stopping the spread of COVID-19! Download OpenTrace. Go to: https://bluetrace.io</string>
+    <string name="great">Great!!!</string>
+    <string name="phone_number_invalid">Phone number invalid</string>
 </resources>
