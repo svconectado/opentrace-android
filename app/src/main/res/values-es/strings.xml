@@ -108,4 +108,5 @@
     <string name="make_sure_tracer_code_is_valid">Asegurate que te entregen un código que coincida con el que se muestra en la parte inferior.</string>
     <string name="verification_code">"Código de verificación: "</string>
     <string name="invalid_pin">PIN inválido</string>
+    <string name="use_only_if_OTC_contacts_you">Utilizalo únicamente si OTC te contacta</string>
 </resources>

@@ -93,4 +93,19 @@
     <string name="share_message">Join me in stopping the spread of COVID-19! Download OpenTrace. Go to: https://bluetrace.io</string>
     <string name="great">Great!!!</string>
     <string name="phone_number_invalid">Phone number invalid</string>
+    <string name="for_use_by_otc">For use by OTC</string>
+    <string name="your_code_will_expire_in">Your code will expire in</string>
+    <string name="step_2">STEP 2</string>
+    <string name="enter_pin_to_upload">Enter PIN to upload</string>
+    <string name="next">Next</string>
+    <string name="tap_nex_only_if_contact_tracer">Tap \'Next\' only if a contact tracer tells you to do so</string>
+    <string name="upload_contact_tracing_data">Upload data for contact tracing</string>
+    <string name="data_uploaded_to_otc">Your data has been uploaded to OTC</string>
+    <string name="done">Done</string>
+    <string name="step_1">STEP 1</string>
+    <string name="verify_contact_tracer">Verify that the contact tracer is from OTC</string>
+    <string name="make_sure_tracer_code_is_valid">Make sure they give you a code that matches the one below.</string>
+    <string name="verification_code">"Verification code: "</string>
+    <string name="invalid_pin">Invalid PIN</string>
+    <string name="use_only_if_OTC_contacts_you">Use only if OTC contacts you</string>
 </resources>
