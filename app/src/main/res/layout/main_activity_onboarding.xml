@@ -58,6 +58,19 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_desc" />
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_test_disclaimer"
+        style="@style/OnboardingDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_test_disclaimer"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc_sub" />
+
     <Button
         android:id="@+id/btn_onboardingStart"
         android:layout_width="match_parent"
