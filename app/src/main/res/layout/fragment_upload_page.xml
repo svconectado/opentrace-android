@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent">
 
-    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent"
-        android:weightSum="12"
-        android:background="@drawable/background_blue_gradient">
+        android:weightSum="12">
 
         <LinearLayout
             android:id="@+id/topLayout"
@@ -25,19 +25,19 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/for_use_by_otc"
                 android:textColor="@color/white"
-                android:text="For use by OTC"
-                android:textSize="32sp"
-                android:textFontWeight="600" />
+                android:textFontWeight="600"
+                android:textSize="32sp" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/upload_contact_tracing_data"
                 android:textColor="@color/white"
-                android:text="Upload data for contact tracing"
-                android:textSize="18sp"
-                android:textFontWeight="600" />
+                android:textFontWeight="600"
+                android:textSize="18sp" />
 
         </LinearLayout>
 
