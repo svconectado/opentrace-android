@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
-    android:background="#ffffff"
     tools:context=".SplashActivity">
 
     <LinearLayout
@@ -21,21 +20,22 @@
         app:layout_constraintVertical_weight="5">
 
         <View
-            android:layout_weight="0.15"
             android:layout_width="0dp"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_weight="0.15" />
 
         <ImageView
             android:layout_width="0dp"
-            android:layout_weight="0.7"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_opentrace_blue_transparent"
+            android:layout_weight="0.7"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_goes"
             app:layout_constraintTop_toTopOf="@+id/center" />
 
         <View
-            android:layout_weight="0.15"
             android:layout_width="0dp"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_weight="0.15" />
 
     </LinearLayout>
 

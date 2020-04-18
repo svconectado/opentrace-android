@@ -10,8 +10,7 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent"
-        android:weightSum="12"
-        android:background="@drawable/background_blue_gradient">
+        android:weightSum="12">
 
         <LinearLayout
             android:id="@+id/topLayout"

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_white_radius"
+    android:orientation="vertical"
     android:weightSum="6">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
         android:layout_height="0dp"
         android:layout_weight="5"
+        android:orientation="vertical"
         tools:ignore="Suspicious0dp">
 
         <LinearLayout
@@ -19,30 +18,31 @@
             android:layout_height="60dp" />
 
         <LinearLayout
-            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:layout_width="match_parent"
             android:gravity="center_horizontal|top"
-            android:layout_height="wrap_content">
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_opentrace_blue_transparent" />
+                android:adjustViewBounds="true"
+                android:src="@drawable/logo_goes" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_marginTop="60dp"
-            android:orientation="vertical"
-            android:layout_weight="2"
             android:layout_width="match_parent"
-            android:layout_height="0dp">
+            android:layout_height="0dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
 
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:layout_width="match_parent"
@@ -61,9 +61,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:orientation="vertical"
         tools:ignore="Suspicious0dp">
 
         <Button
