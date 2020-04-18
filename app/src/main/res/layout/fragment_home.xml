@@ -143,7 +143,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/gradient"
-                        android:minWidth="200dp"
+                        android:minWidth="@dimen/logo_width"
                         android:text="@string/restart_app_setup"
                         android:textAllCaps="false"
                         android:textColor="#fff"
